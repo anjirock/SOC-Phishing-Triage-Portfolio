@@ -56,9 +56,9 @@ IOC extraction → Documented for SIEM/blocklists
 
 | ID | Phishing Type | VT Score | Verdict |
 |----|--------------|----------|---------|
-| [IR-2026-001](IR-2026-001_Credential_Harvesting_RBC) | Banking Credential Harvesting — RBC Royal Bank | 23/92 | True Positive |
-| [IR-2026-002](IR-2026-002_Malicious_Attachment_ConnectWise) | Malicious File Download / BEC — ConnectWise RAT | 13/92 | True Positive |
-| [IR-2026-003](IR-2026-003_Brand_Impersonation_Amazon) | Brand Impersonation — Amazon Prime | 0/92* | True Positive |
+| [IR-2026-001](IR-2026-001_Credential_Harvesting_RBC.pdf) | Banking Credential Harvesting — RBC Royal Bank | 23/92 | True Positive |
+| [IR-2026-002](IR-2026-002_Malicious_Attachment_ConnectWise.pdf) | Malicious File Download / BEC — ConnectWise RAT | 13/92 | True Positive |
+| [IR-2026-003](IR-2026-003_Brand_Impersonation_Amazon.pdf) | Brand Impersonation — Amazon Prime | 0/92* | True Positive |
 
 > **IR-2026-003 Note:** The 0/92 VirusTotal result was not
 > a false negative — it was caused by active scanner evasion
