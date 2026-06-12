@@ -1,0 +1,25 @@
+Report_ID,IOC_Type,Value,Threat_Label,First_Seen,Source,Status
+IR-2026-001,URL,https://rbcroyalbank-homesd.info/com/static/js/main.js,Phishing - Banking Credential Harvesting,2026-04-14,URLhaus / HuntTeam,Offline
+IR-2026-001,Domain,rbcroyalbank-homesd.info,Phishing - RBC Impersonation,2026-04-14,URLhaus / HuntTeam,Offline
+IR-2026-001,IP Address,43.160.241.151,Phishing Host,2026-04-14,VirusTotal,Unknown
+IR-2026-001,SHA-256 Hash,917234a575bfe049b6cefcee7f8e98808bcc2753c681793ccc55b6b7c1be7017,Malicious JS Frontend,2026-04-14,VirusTotal,N/A
+IR-2026-001,TLD Abuse,.info mimicking .com,Brand Impersonation,2026-04-14,Analyst Observation,N/A
+IR-2026-002,URL,https://biducaconfeitos.com.br/download_invitee.php,Malware Delivery - ConnectWise RAT,2026-01-29,URLhaus / Anonymous,Offline (404)
+IR-2026-002,Domain,biducaconfeitos.com.br,Compromised Legitimate Website,2026-01-29,URLhaus / Anonymous,Active (legit site)
+IR-2026-002,IP Address,162.241.3.47,Malware Host,2026-01-29,VirusTotal,Unknown
+IR-2026-002,SHA-256 Hash,f64aac4532e9c19ffe67dc86399014babf3d6163e5646b57abfdf791cc1722cf,Malicious PHP Downloader,2026-01-29,VirusTotal,N/A
+IR-2026-002,Malware Family,ConnectWise RAT,Remote Access Trojan,2026-01-29,URLhaus Tags,N/A
+IR-2026-002,File Type,MSI Windows Installer,Malware Payload,2026-01-29,URLhaus Tags,N/A
+IR-2026-002,Attack Vector,Business Email Compromise via fake Microsoft Teams invite,BEC / Phishing,2026-01-29,URLhaus Tags,N/A
+IR-2026-003,URL,https://amzaboprime008.pro/,Phishing - Amazon Prime Impersonation,2026-06-11,PhishTank #9451153,Online at analysis
+IR-2026-003,URL,https://amzaboprime008.pro/loading.php,Phishing Kit Redirect Page,2026-06-11,PhishTank #9451153,Online at analysis
+IR-2026-003,Domain,amzaboprime008.pro,Phishing - Amazon Prime Brand Impersonation,2026-06-11,PhishTank #9451153,Online at analysis
+IR-2026-003,IP Address,104.21.5.158,Cloudflare Proxy - 2/91 VT detections,2026-06-11,VirusTotal,Cloudflare shared
+IR-2026-003,IP Address,172.67.133.154,Cloudflare Proxy,2026-06-11,VirusTotal,Cloudflare shared
+IR-2026-003,IPv6,2606:4700:3030::ac43:859a,Cloudflare Proxy IPv6,2026-06-11,VirusTotal,Cloudflare shared
+IR-2026-003,IPv6,2606:4700:3036::6815:059e,Cloudflare Proxy IPv6,2026-06-11,VirusTotal,Cloudflare shared
+IR-2026-003,SSL Thumbprint,ff8d59ac2007164ca97c3a78f808dc77f3c18602,Phishing Site SSL Certificate,2026-06-11,VirusTotal,N/A
+IR-2026-003,SSL Serial,8ecf2a3944f111bc0ecfe54c01a06bc9,Phishing Site SSL Certificate,2026-06-11,VirusTotal,N/A
+IR-2026-003,Registrar,Dynadot IANA ID 472,Phishing Domain Registrar,2026-06-11,RDAP,N/A
+IR-2026-003,Campaign,amzaboprime[001-999].pro,Suspected DGA Campaign Range,2026-06-11,Analyst Observation,Suspected active
+IR-2026-003,PhishTank ID,#9451153,Community Phishing Report,2026-06-12,PhishTank,Confirmed
